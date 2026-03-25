@@ -1,5 +1,7 @@
-import type { cvData } from '../data/cv-data'
+import { cvData } from '../data/cv-data'
 import { HobbyIcon } from './HobbyIcon'
+
+type Props = { data: typeof cvData }
 
 export function MainContent({ data }: Props) {
   return (
