@@ -27,7 +27,7 @@ export interface ExtracurricularEntry {
 export const cvData = {
   name: "Shaked Ahissar",
   title: "MD Graduate",
-  photo: "/profile.png",
+  photo: "profile.png",
 
   contact: {
     email: "Shaked.ahissar@gmail.com",
